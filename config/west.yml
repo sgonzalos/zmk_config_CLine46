@@ -1,3 +1,4 @@
+
 manifest:
   remotes:
     - name: cormoran
@@ -18,7 +19,7 @@ manifest:
       import: app/west.yml
     - name: zmk-feature-non-lipo-battery-management
       remote: takamaru-fpv
-      revision: fa7e888
+      revision: voltage_division
  
     # DYA Studio モジュール（すべて cormoran リポジトリ）
     # main 指定を 2026/05/01 ビルド時点のコミットに固定
