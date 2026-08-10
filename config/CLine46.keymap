@@ -75,10 +75,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SINGLE_QUOTE  &kp SEMICOLON  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH         &kp MINUS      &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD        &trans         &trans
-        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp NUMBER_0                              &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(SINGLE_QUOTE)  &kp LS(SEMICOLON)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH             &kp MINUS          &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD            &kp LS(MINUS)      &trans
+        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp NUMBER_0                              &trans                &trans
             >;
         };
 
