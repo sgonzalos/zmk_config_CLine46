@@ -18,12 +18,14 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <13 14>;
+            key-positions = <14 15>;
+            layers = <0>;
         };
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <25 26>;
+            key-positions = <26 27>;
+            layers = <0>;
         };
     };
 
